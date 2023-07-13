@@ -1,0 +1,101 @@
+@media (max-width: 1440px) {
+}
+@media (max-width: 1280px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+  .block {
+
+    margin: 9px auto;
+  }
+  h1.texttitle {
+    &::after {
+      font-size: 38px;
+    }
+  }
+  h1.texttitlebit {
+
+    &::after {
+      position: absolute;
+      content: attr(title);
+
+      font-size: 38px;
+    
+    }
+  }
+  h1.texttitlebolck {
+    &::after {
+      font-size: 38px;
+    }
+  }
+  h1.texttitlenetwork{
+    &::after {
+      font-size: 38px !important;
+    }
+  }
+  h1.texttitlesocial {
+    &::after {
+      font-size: 48px;
+    }
+  }
+  h1.texttitleabout {
+    &::after {
+      font-size: 38px;
+    }
+  }
+  h2.texttitleabout2 {
+    &::after {
+      font-size: 30px;
+    }
+  }
+  h2.texttitleplay {
+    &::after {
+      font-size: 30px;
+      top: 5px;
+    }
+  }
+  h2.texttitlegame {
+    &::after {
+      font-size: 30px;
+      top: 5px;
+    }
+  }
+  h2.texttitlebitword {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    font-size: 38px !important;
+    &::after {
+      font-size: 38px;
+    }
+  }
+  h2.texttitlebaichain {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    font-size: 38px !important;
+    &::after {
+      font-size: 38px;
+    }
+  }
+
+  h2.texttitlemetabit {
+    font-size: 38px !important;
+    &::after {
+      font-size: 38px;
+    }
+  }
+  h3.texttitlenetwork1{
+    &::after {
+      font-size: 27px;
+    }
+  }
+  .description {
+    font-size: 14px !important;
+    max-width: 529px !important;
+  }
+}
